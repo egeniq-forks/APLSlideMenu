@@ -432,7 +432,7 @@ static CGFloat kAPLSlideMenuFirstOffset = 4.0;
 
 #pragma mark - MenuHandling
 
-- (void) dragGestureRecognizerDrag:(UIPanGestureRecognizer*)sender {
+- (void)dragGestureRecognizerDrag:(UIPanGestureRecognizer *)sender {
     if (self.keyboardVisible || self.isDisplayMenuSideBySide)
         return;
     
