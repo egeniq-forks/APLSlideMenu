@@ -95,6 +95,9 @@ extern NSString *APLSlideMenuDidHideNotification;
 
 - (void) dismissContentViewController;
 
+// Expose, so we can override this in a subclass
+- (void)dragGestureRecognizerDrag:(UIPanGestureRecognizer *)sender;
+
 @end
 
 //----------------------------------------------
